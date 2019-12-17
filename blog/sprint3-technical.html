@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="your-stylesheet-link-here.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.typekit.net/vcy0sbd.css">
+        <title>Discussion</title>
+
+<style>
+    /* Side Bar*/
+    .sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(48, 48, 48);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  font-family: nobel, sans-serif;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: rgb(48, 48, 48);
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:white;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: noun;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+     h1 {
+    text-align: center;
+    font-family: nobel, sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    }
+
+    h2 {
+    text-align: left;
+    font-family: nobel, sans-serif;
+    font-size: 10px;
+    max-width: 70%;
+    margin-left:170px;
+    margin-bottom: 6px;
+    }
+
+    h3 {
+    text-align: left;
+    font-family: nobel, sans-serif;
+    font-size: 10px;
+    max-width: 70%;
+    margin-left:170px;
+    margin-bottom: 6px;
+    }
+
+    h4 {
+    text-align: left;
+    font-family: nobel, sans-serif;
+    font-size: 10px;
+    max-width: 70%;
+    margin-left:170px;
+    margin-bottom: 6px;
+    }
+
+    h5 {
+    text-align: left;
+    font-family: nobel, sans-serif;
+    font-size: 10px;
+    max-width: 70%;
+    margin-left:170px;
+    margin-bottom: 6px;
+    }
+
+    h6 {
+    text-align: left;
+    font-family: nobel, sans-serif;
+    font-size: 10px;
+    max-width: 70%;
+    margin-left:170px;
+    margin-bottom: 6px;
+    }
+
+    p {
+     text-align: left;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 9px;
+     max-width: 70%;
+     margin-left:170px;
+     margin-bottom: 40px;
+   }
+
+   .quote {
+    margin-top: -20px;
+    font-style: italic;
+    color:cadetblue;
+    margin-bottom: 20px;
+   }
+
+   .dom-image {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   margin-bottom: 40px;
+   }
+   
+   .array {
+    color: slategray;
+    margin-bottom: 20px;
+   }
+
+   .example {
+    margin-top: -20px;
+    margin-bottom: 20px;
+   }
+ 
+ .myarray {
+  margin-bottom: -30px;
+  margin-top: -16px;
+ }
+
+ .index {
+  margin-top: -26px;
+ }
+
+.objects {
+ color: slategray;
+ margin-top: -20px;
+
+}
+
+.objectvar {
+margin-top: -20px;
+}
+
+.quote2 {
+margin-top: -38px;
+}
+
+.symbol {
+margin-top: -40px;
+}
+
+.animal {
+margin-top: -30px;
+}
+
+ 
+
+
+
+
+</style>
+<body>
+
+        <div id="mySidebar" class="sidebar">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                   <a href="https://emily135shen.github.io/index.html">Home Page</a>
+                   <a href="https://emily135shen.github.io/blog/sprint1-technical.html">Sprint1 Technical</a>
+                   <a href="https://emily135shen.github.io/blog/sprint1-cultural.html#">Sprint1 Cultural</a>
+                   <a href="https://emily135shen.github.io/blog/sprint2-technical.html">Sprint2 Technical</a>
+                   <a href="https://emily135shen.github.io/blog/sprint2-cultural.html">Sprint2 Cultural</a>
+                <a href="#">Sprint3 Technical</a>
+                <a href="https://emily135shen.github.io/blog/sprint3-cultural.html">Sprint3 Cultural</a>
+                <a href="#">Sprint4 Technical</a>
+                <a href="#">Sprint4 Cultural</a>
+                <a href="#">Sprint5 Technical</a>
+                <a href="#">Sprint5 Cultural</a>
+              </div>
+              
+              <div id="main">
+                <button class="openbtn" onclick="openNav()">☰</button>  
+              </div>
+              
+              <script>
+              function openNav() {
+                document.getElementById("mySidebar").style.width = "250px";
+                document.getElementById("main").style.marginLeft = "250px";
+              }
+              
+              function closeNav() {
+                document.getElementById("mySidebar").style.width = "0";
+                document.getElementById("main").style.marginLeft= "0";
+              }
+              </script>
+              
+   <div>
+     <h1>DISCUSSION</h1>
+   </div>
+
+   <div>
+     <h2>Differences between HTML and CSS.</h2>
+   </div>
+
+   <div>
+     <p>I like to think of the HTML as the empty base that will be used to display design and the CSS as the visuals. A good example is image the HTML as an empty building with no colour and design. You then apply CSS to the building and now the building has 
+         texture, colour and a curtain theme. This is how HTML and CSS Is used when building websites. To conclude this HTML is the language used to display documents on web browsers but will look empty until CSS is applied to the document and giving it style. </p>
+   </div>
+
+  <div>
+    <h3>Loops and flows in everyday life.</h3>
+  </div>
+
+  <div>
+    <p>Imagine tying shoe laces everyday with set of instructions that must be applied everyday (the flow).
+         But every day you tie your shoe laces, you tie your shoe laces with an extra loop in the process and every day that goes on you add other loop. 
+         As this is happening you are making sure that you’re using the same technique every day (the loops).</p>
+  </div>
+
+  <div>
+   <h4>What the DOM is and how you might interact with it.</h4>
+  </div>
+
+  <div>
+   <p>The DOM is what allows our browsers to display content, style and structure. In other words, it’s the application programming interface to HTML and XML documents. 
+       The DOM is made up of nodes. Nodes are elements, text content, comments, attributes etc. HTML elements that are accessed is taken from the base of the node which displays all nodes. 
+       One might open the DOM to edit the styling or html. 
+  </p>
+  </div>
+
+  <div class="quote">
+   <p>"The W3C Document Object Model (DOM) is a platform and language-neutral interface that 
+        allows programs and scripts to dynamically access and update the content, structure, and style of a document."
+  </p>
+ </div>
+
+  <div> 
+  <img class="dom-image"src="pic_htmltree.gif" alt="pic-htmltree">
+  </div>
+
+
+  <div>
+     <h5>The difference between accessing data from arrays and objects.</h5>
+</div>
+        
+ <div class="array">
+   <p>Data in an array is accessed by the index number e.g. [0].Array data is accessed by using their index number(data): [0], [1], [2] etc.
+    Array indexes will always start with “0”. [0] is the first array element,[1] Is the second, [2] is the third and so on. 
+   </p>
+ </div>
+<div class="example">
+  <p>Example:</p>
+</div>
+
+<div>
+    <p class="myarray">Var myArray = [1,2,3,4,5];</p>
+    <p>var myData = [0]; </p>
+    <p class="index">The index starts with [0]. [0] in the example with equal to “1”. </p>
+</div>
+
+<div class="objects">
+  <p>Objects are accessed by either a dot or bracket notion.Example1: objectName.propertyName; Example2: objectName [“propertyName”];</p>
+</div>
+
+<div class="example">
+    <p>An Array of objects will always l contain a property name e.g. “object”. Example:</p>
+</div>
+
+<div>
+    <p class="objectvar">var myObjects = {</p>
+    <p class="quote2">"the animal": "horse"</p>
+    <p class="symbol">};</p>
+    <p class="animal">var animalValue = myObjects [“the animal”];</p>
+</div>
+<div>
+    <h6>Explain what functions are and why they are useful.</h6>
+</div>
+
+<div>
+    <p>Functions are blocks of code used to perform a specific task. They are useful because functions carry out calls. </p>
+</div>
+
+<div> 
+  <img class="dom-image"src="funcation.jpeg" alt="funcation">
+</div>
+   
+
+
+
+</body>
