@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link href="your-stylesheet-link-here.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://use.typekit.net/vcy0sbd.css">
+        <title>Problem Solving</title>
+    </head>
+
+    <style>
+          /* Side Bar*/
+      .sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(48, 48, 48);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  font-family: nobel, sans-serif;
+  font-size: 25px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: white;
+  color: rgb(48, 48, 48);
+  padding: 10px 15px;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color:white;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: noun;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+
+h1 {
+    text-align: center;
+    font-family: nobel, sans-serif;
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 100px;
+   }
+
+   h2 {
+    text-align: left;
+    font-family: nobel, sans-serif;
+    font-size: 10px;
+     max-width: 70%;
+     margin-left:170px;
+     margin-bottom: 6px;
+   }
+
+   h3 {
+    text-align: left;
+    font-family: nobel, sans-serif;
+    font-size: 10px;
+     max-width: 70%;
+     margin-left:170px;
+     margin-bottom: 6px;
+   }
+
+
+   h4 {
+    text-align: left;
+    font-family: nobel, sans-serif;
+    font-size: 10px;
+     max-width: 70%;
+     margin-left:170px;
+     margin-bottom: 6px;
+   }
+
+   p {
+     text-align: left;
+     font-family: Arial, Helvetica, sans-serif;
+     font-size: 9px;
+     max-width: 70%;
+     margin-left:170px;
+     margin-bottom: 40px;
+   }
+
+
+   .li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+   }
+
+   .image {
+   display: block;
+   margin-left: 170px;
+   width: 50%;
+   margin-bottom: 40px;
+   }
+    
+    
+    </style>
+
+    <body>
+
+            <div id="mySidebar" class="sidebar">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+                    <a href="https://emily135shen.github.io/index.html">Home Page</a>
+                    <a href="https://emily135shen.github.io/blog/sprint1-technical.html">Sprint1 Technical</a>
+                    <a href="https://emily135shen.github.io/blog/sprint1-cultural.html#">Sprint1 Cultural</a>
+                    <a href="https://emily135shen.github.io/blog/sprint2-technical.html">Sprint2 Technical</a>
+                    <a href="https://emily135shen.github.io/blog/sprint2-cultural.html">Sprint2 Cultural</a>
+                    <a href="https://emily135shen.github.io/blog/sprint3-technical.html">Sprint3 Technical</a>
+                    <a href="https://emily135shen.github.io/blog/sprint3-cultural.html">Sprint3 Cultural</a>
+                    <a href="#">Sprint4 Technical</a>
+                    <a href="https://emily135shen.github.io/blog/sprint4-cultural.html">Sprint4 Cultural</a>
+                    <a href="#">Sprint5 Technical</a>
+                    <a href="#">Sprint5 Cultural</a>
+                  </div>
+                  
+                  <div id="main">
+                    <button class="openbtn" onclick="openNav()">☰</button>  
+                  </div>
+                  
+                  <script>
+                  function openNav() {
+                    document.getElementById("mySidebar").style.width = "250px";
+                    document.getElementById("main").style.marginLeft = "250px";
+                  }
+                  
+                  function closeNav() {
+                    document.getElementById("mySidebar").style.width = "0";
+                    document.getElementById("main").style.marginLeft= "0";
+                  }
+                  </script>
+
+        <div>
+            <h1>PROBLEM SOLVING</h1>
+        </div>
+
+        <div>
+            <h2>Getting Blocked on a simple question</h2>
+        </div>
+
+        <div>
+           <p>
+            I got blocked on a simple problem in my code the other day trying to fix an error of an image not appearing on my website. 
+            The Problem-solving method I used was Pseudocode. This is a method of simplifying programming language used in program design.
+            So instead of writing the code out we write it in words and sentences with no code to help us understand what’s going on.
+            The process of this was really helpful because it simplified the problem and helped me see what wrote wrong in my code. In the process of t
+            his I learn that my image sizing wasn’t right therefore the image wasn’t showing up and I also learnt that writing out your problem or error in a different perspective can be really helpful. 
+          </p>
+        </div>
+
+        <div>
+            <h3>The problem solving techniques and process</h3>
+        </div>
+
+        <div class="li">
+            <ul>
+                <li>Pseudocode</li>
+                <li>Trying something</li>
+                <li>Rubber ducky method</li>
+                <li>Reading error messages</li>
+                <li>Console.logging</li>
+                <li>Googling</li>
+                <li>Asking your peers for help</li>
+                <li>Improving your process with reflection</li>
+            </ul>
+        </div>
+
+        <div>
+            <h4>Reflection on techniques and processes</h4>
+        </div>
+
+        <div>
+         <p>
+           I am familiar with the techniques and process of most of these techniques. These techniques include (googling, trying something new, 
+           reading error messages, googling, asking peers for help, improving my process through reflections) and these are the techniques I am confident with. 
+           However, I have not used the solving techniques and process of pseudocode and rubber ducky. These are the solving techniques I am not as familiar with however 
+           I am starting to use these techniques on my daily coding activities.
+         </p>
+        </div>
+
+        <div><img class="image"src="problem.jpeg" alt="problem"> </div>
+
+    
+
+
+    </body>
